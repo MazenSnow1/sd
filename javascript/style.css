@@ -1,0 +1,41 @@
+body {
+  background-color: #222;
+}
+
+div {
+  text-align: center;
+  margin-top: 20%;
+}
+
+form input {
+  width: 20%;
+  height: 20px;
+  background: none;
+  border: none;
+  border-bottom:  2px solid red;
+  color: white;
+} 
+
+form input::placeholder{
+  padding: 5px;
+}
+
+form input:focus {
+  outline: transparent;
+}
+
+.Sb{
+  background-color: red;
+  padding: 10px 20px;
+  border: 2px solid red;
+  border-radius: 7px;
+  color: white;
+  transition: .5s;
+}
+
+
+
+form button:hover{
+  
+  transform: translate(100%);
+}
